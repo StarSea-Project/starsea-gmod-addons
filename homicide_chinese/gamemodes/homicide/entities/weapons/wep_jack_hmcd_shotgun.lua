@@ -1,0 +1,50 @@
+if ( SERVER ) then
+	AddCSLuaFile()
+else
+	killicon.AddFont( "wep_jack_hmcd_shotgun", "HL2MPTypeDeath", "1", Color( 255, 0, 0 ) )
+	SWEP.WepSelectIcon=surface.GetTextureID("vgui/wep_jack_hmcd_shotgun")
+end
+SWEP.Base = "wep_jack_hmcd_firearm_base"
+SWEP.PrintName		= "雷明顿870"
+SWEP.Instructions	= "这是一种典型的民用泵动狩猎猎枪。它有一个6轮弹夹，可发射12号2-3/4英寸子弹。\n\n左键射击\n右键瞄准\nR（装弹）键重新装弹\n射击位置很重要。"
+SWEP.Primary.ClipSize			= 6
+SWEP.SlotPos=2
+SWEP.ViewModel		= "models/weapons/v_shot_m3juper90.mdl"
+SWEP.WorldModel		= "models/weapons/w_shot_m3juper90.mdl"
+SWEP.ViewModelFlip=false
+SWEP.Damage=15
+SWEP.NumProjectiles=8
+SWEP.Spread=.0285
+SWEP.SprintPos=Vector(5,-1,-1)
+SWEP.SprintAng=Angle(-20,70,-40)
+SWEP.AimPos=Vector(-1.95,-1.5,1.1)
+SWEP.ReloadRate=.5
+SWEP.AmmoType="Buckshot"
+SWEP.AimTime=5
+SWEP.BearTime=7
+SWEP.TriggerDelay=.1
+SWEP.CycleTime=.9
+SWEP.Recoil=2
+SWEP.Supersonic=false
+SWEP.Accuracy=.99
+SWEP.HipFireInaccuracy=.15
+SWEP.CloseFireSound="snd_jack_hmcd_sht_close.wav"
+SWEP.FarFireSound="snd_jack_hmcd_sht_far.wav"
+SWEP.CycleSound="snd_jack_hmcd_shotpump.wav"
+SWEP.ENT="ent_jack_hmcd_shotgun"
+SWEP.MuzzleEffect="pcf_jack_mf_mshotgun"
+SWEP.CommandDroppable=true
+SWEP.DeathDroppable=true
+SWEP.ShellType="ShotgunShellEject"
+SWEP.HipHoldType="shotgun"
+SWEP.AimHoldType="ar2"
+SWEP.DownHoldType="passive"
+SWEP.FuckedWorldModel=true
+SWEP.ReloadSound="snd_jack_shotguninsert.wav"
+SWEP.ReloadType="individual"
+SWEP.CycleType="manual"
+SWEP.BarrelLength=10
+SWEP.HolsterSlot=1
+SWEP.HolsterPos=Vector(3.5,0,-4)
+SWEP.HolsterAng=Angle(160,5,180)
+SWEP.CarryWeight=5000

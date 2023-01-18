@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"base"		"base"
+	"title"		"谋杀模式Plus：Homicide"
+	"maps"		"^md_|^mu_|^murder_"
+	"menusystem"	"1"
+	"workshopid"    "488953849"
+	"version"	"22"
+}
