@@ -7,4 +7,4 @@ includes following addons:
 2. [Pointshop 2](https://github.com/Kamshak/Pointshop2)
 3. [LibK](https://github.com/Kamshak/LibK)
 4. [PAC3](https://github.com/CapsAdmin/pac3)
-
+5. Homicide on steam workshop (we did some little change on it)
