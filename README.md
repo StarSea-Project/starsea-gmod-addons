@@ -15,3 +15,5 @@ includes following addons:
  btw, i added every(maybe) configure file into gitignore file so they will not show up
  
  pr welcome if you have some ideas or want to fix some bugs
+ 
+ issues go to https://github.com/StarSea-Project/StarSea-GMOD-Server please
