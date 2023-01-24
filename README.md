@@ -11,3 +11,7 @@ includes following addons:
   
   
  ignore the chairgun, mr zhou made it and i dont know why he added it to his server  
+ 
+ btw, i added every(maybe) configure file into gitignore file so they will not show up
+ 
+ pr welcome if you have some ideas or want to fix some bugs
