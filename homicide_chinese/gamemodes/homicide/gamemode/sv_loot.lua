@@ -21,6 +21,9 @@ local LootTable={
 	{"ent_jack_hmcd_hatchet",4},
 	{"ent_jack_hmcd_phone",4},
 	{"ent_jack_hmcd_hammer",4},
+	{"ent_jack_hmcd_brick",4},
+	{"ent_zac_hmcd_heroin",4},
+	{"ent_hz_hmcd_pipelead",3.5},
 	{"ent_jack_hmcd_ammo",2.5},
 	{"ent_jack_hmcd_smallpistol",.5}
 }
@@ -32,6 +35,9 @@ local SHTF_LootTable={
 	{"ent_jack_hmcd_bandage",7},
 	{"ent_jack_hmcd_ducttape",6},
 	{"ent_jack_hmcd_hammer",6},
+	{"ent_jack_hmcd_brick",6},
+	{"ent_zac_hmcd_heroin",5},
+	{"ent_hz_hmcd_pipelead",5},
 	{"ent_jack_hmcd_flashlight",4},
 	{"ent_jack_hmcd_medkit",4},
 	{"ent_jack_hmcd_baseballbat",4},
@@ -45,6 +51,7 @@ local SHTF_LootTable={
 	{"ent_jack_hmcd_shotgun",1},
 	{"ent_jack_hmcd_rifle",1},
 	{"ent_jack_hmcd_softarmor",1},
+	{"ent_hz_hmcd_usp",1},
 	{"ent_jack_hmcd_axe",1},
 	{"ent_jack_hmcd_hatchet",1},
 	{"ent_jack_hmcd_helmet",1},
@@ -65,6 +72,7 @@ local SHTF_TraitorLootTable={
 	{"ent_jack_hmcd_pocketknife",1},
 	{"ent_jack_hmcd_bandage",1},
 	{"ent_jack_hmcd_bandagebig",1},
+	{"ent_jack_hmcd_brick",2},
 	{"ent_jack_hmcd_revolver",3},
 	{"ent_jack_hmcd_painpills",3},
 	{"ent_jack_hmcd_molotov",3},
@@ -74,6 +82,8 @@ local SHTF_TraitorLootTable={
 	{"ent_jack_hmcd_pistol",4},
 	{"ent_jack_hmcd_softarmor",4},
 	{"ent_jack_hmcd_helmet",4},
+	{"ent_zac_hmcd_heroin",4},
+	{"ent_hz_hmcd_pipelead",4},
 	{"ent_jack_hmcd_shotgun",4},
 	{"ent_jack_hmcd_hatchet",4},
 	{"ent_jack_hmcd_hardarmor",4},
@@ -82,6 +92,7 @@ local SHTF_TraitorLootTable={
 	{"ent_jack_hmcd_bow",4},
 	{"ent_jack_hmcd_assaultrifle",4},
 	{"ent_jack_hmcd_pipebomb",4},
+	{"ent_hz_hmcd_usp",5},
 	{"ent_jack_hmcd_ammo",30}
 }
 function GM:SelectLootItem(goodShit)
