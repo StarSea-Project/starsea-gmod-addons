@@ -23,7 +23,7 @@ if(SERVER)then
 	end
 	function ENT:PickUp(ply)
 		local SWEP=self.SWEP
-		if(((ply.Murderer)or(GAMEMODE.ZOMBIE))and not(ply:HasWeapon(SWEP)))then
+		if((((ply.Murderer)or(GAMEMODE.ZOMBIE))or(GAMEMODE.DEATHMATCH))and not(ply:HasWeapon(SWEP)))then
 			ply:Give(SWEP)
 			ply:GetWeapon(self.SWEP).HmcdSpawned=self.HmcdSpawned
 			ply:GetWeapon(SWEP).Poisoned=self.Poisoned

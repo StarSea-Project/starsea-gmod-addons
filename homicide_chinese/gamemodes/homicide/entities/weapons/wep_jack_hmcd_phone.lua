@@ -34,7 +34,7 @@ SWEP.ViewModel = "models/lt_c/tech/cellphone.mdl"
 SWEP.WorldModel = "models/lt_c/tech/cellphone.mdl"
 if(CLIENT)then SWEP.WepSelectIcon=surface.GetTextureID("vgui/wep_jack_hmcd_phone");SWEP.BounceWeaponIcon=false end
 SWEP.PrintName = "移动电话"
-SWEP.Instructions	= "这是一款安卓智能手机，可以用来报警，使警察更快到达。\n\n左键拨打报警电话(911)"
+SWEP.Instructions	= "这是一款智能手机，可以用来报警，使警察更快到达。\n\n左键拨打报警电话"
 SWEP.Author			= ""
 SWEP.Contact		= ""
 SWEP.Purpose		= ""

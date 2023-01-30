@@ -39,7 +39,7 @@ SWEP.Base="weapon_base"
 SWEP.ViewModel = "models/props_phx/wheels/drugster_front.mdl"
 SWEP.WorldModel = "models/props_phx/wheels/drugster_front.mdl"
 if(CLIENT)then SWEP.WepSelectIcon=surface.GetTextureID("vgui/wep_jack_hmcd_ducttape");SWEP.BounceWeaponIcon=false end
-SWEP.PrintName = "胶带"
+SWEP.PrintName = "强力胶带"
 SWEP.Instructions	= "这是一卷普通的铝色防水聚乙烯涂层的乙烯基布胶带。用它来把东西粘在一起。\n\n左键来粘住\n你只能把胶带贴在两个物体之间的接缝或紧密的间隙上。"
 SWEP.Author			= ""
 SWEP.Contact		= ""

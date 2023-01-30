@@ -34,7 +34,7 @@ SWEP.ViewModel = "models/props_junk/wood_pallet001a_chunka1.mdl"
 SWEP.WorldModel = "models/props_junk/wood_pallet001a_chunka1.mdl"
 if(CLIENT)then SWEP.WepSelectIcon=surface.GetTextureID("vgui/wep_jack_hmcd_jam");SWEP.BounceWeaponIcon=false end
 SWEP.PrintName = "门楔"
-SWEP.Instructions	= "这是一个重型的商业门楔。它可以被踢到位移，阻止门的移动。\n\n左键挂在门上\n按下E键重新拿起来"
+SWEP.Instructions	= "这是一个重型的商用门楔。它可以停止位移，阻止门的移动。\n\n左键挂在门上\n按下E键重新拿起来"
 SWEP.Author			= ""
 SWEP.Contact		= ""
 SWEP.Purpose		= ""

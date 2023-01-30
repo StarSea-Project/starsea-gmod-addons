@@ -25,7 +25,7 @@ SWEP.ViewModel = "models/weapons/v_jj_fraggrenade.mdl"
 SWEP.WorldModel = "models/weapons/w_jj_fraggrenade.mdl"
 if(CLIENT)then SWEP.WepSelectIcon=surface.GetTextureID("vgui/wep_jack_hmcd_oldgrenade");SWEP.BounceWeaponIcon=false end
 SWEP.PrintName = "59号手榴弹"
-SWEP.Instructions	= "这是一种廉价的中国克隆的老式苏联RGD-5攻击性手榴弹。它的杀伤半径为3米，伤亡半径为9米。\n\n左键挥动扔出\n右键放置在一个表面上，作为一个诱杀装置。"
+SWEP.Instructions	= "这是一种廉价的中国山寨的老式苏联RGD-5攻击性手榴弹。它的杀伤半径为3米，伤亡半径为9米。\n\n左键挥动扔出\n右键放置在一个表面上，作为一个诱杀装置。"
 SWEP.Author			= ""
 SWEP.Contact		= ""
 SWEP.Purpose		= ""

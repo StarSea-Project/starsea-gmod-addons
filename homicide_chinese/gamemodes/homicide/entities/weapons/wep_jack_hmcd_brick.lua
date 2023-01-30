@@ -35,7 +35,7 @@ SWEP.ViewModel = "models/weapons/v_brick_c_arms.mdl"
 SWEP.WorldModel = "models/weapons/w_brick.mdl"
 if(CLIENT)then SWEP.WepSelectIcon=surface.GetTextureID("vgui/wep_jack_hmcd_brick");SWEP.BounceWeaponIcon=false end
 SWEP.PrintName = "砖块"
-SWEP.Instructions	= "这是一个来自建筑工地的建筑不可缺的材料之一.\n\n左键投掷."
+SWEP.Instructions	= "这是建筑材料之一.\n\n左键投掷."
 SWEP.Author			= ""
 SWEP.Contact		= ""
 SWEP.Purpose		= ""

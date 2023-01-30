@@ -35,7 +35,7 @@ SWEP.ViewModel = "models/weapons/tfa_nmrih/me_pipe_lead/v_me_pipe_lead_homicide.
 SWEP.WorldModel = "models/weapons/tfa_nmrih/me_pipe_lead/w_pipe_lead.mdl"
 if(CLIENT)then SWEP.WepSelectIcon=surface.GetTextureID("vgui/hud/tfa_nmrih_lpipe");SWEP.BounceWeaponIcon=false end
 SWEP.PrintName = "水管"
-SWEP.Instructions	= "这是一个从水管道拆下的其中一节小管道.你想怎么用就怎么用(伤害比棒球棍高一点点).\n每次攻击消耗30%体力.\n左键攻击."
+SWEP.Instructions	= "这是一个从水管道拆下的其中一节小管道。可以像棒球棒一样使用它\n杀伤力比棒球棒更大。\n\n每次攻击消耗30%体力\n左键攻击"
 SWEP.Author			= ""
 SWEP.Contact		= ""
 SWEP.Purpose		= ""
