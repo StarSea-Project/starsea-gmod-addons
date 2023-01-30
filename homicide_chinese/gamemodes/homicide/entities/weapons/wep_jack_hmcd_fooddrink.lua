@@ -34,7 +34,7 @@ SWEP.ViewModel = "models/foodnhouseholditems/mcdburgerbox.mdl"
 SWEP.WorldModel = "models/foodnhouseholditems/mcdburgerbox.mdl"
 if(CLIENT)then SWEP.WepSelectIcon=surface.GetTextureID("vgui/wep_jack_hmcd_fooddrink");SWEP.BounceWeaponIcon=false end
 SWEP.PrintName = "小型应急食品"
-SWEP.Instructions	= "这是一个你可以吃/喝的物品。这样做可以获得激素再生的提升，以及一些缓慢的健康再生。\n\n左键来吃/喝"
+SWEP.Instructions	= "这是一个你可以吃/喝的物品。使用了可以让体力回升，以及缓慢回血。\n\n左键来吃/喝"
 SWEP.Author			= ""
 SWEP.Contact		= ""
 SWEP.Purpose		= ""

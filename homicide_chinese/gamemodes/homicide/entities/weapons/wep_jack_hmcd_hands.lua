@@ -43,7 +43,7 @@ SWEP.BobScale=3
 SWEP.Author			= ""
 SWEP.Contact		= ""
 SWEP.Purpose		= ""
-SWEP.Instructions	= "这是你的手。无论你如何使用它们。保护自己，攻击别人，移动物体，等等。\n\n左键拿出拳头进行攻击\nR键放下拳头\n当你的拳头放下时，右键可以拖动物体\n当你的拳头举起时，右键可以格挡攻击"
+SWEP.Instructions	= "这是你的手。随便你如何使用它们。保护自己，攻击别人，移动物体，等等。\n\n左键拿出拳头进行攻击\nR键放下拳头\n当你的拳头放下时，右键可以拖动物体\n当你的拳头举起时，右键可以格挡攻击"
 
 SWEP.Spawnable			= false
 SWEP.AdminOnly		= true

@@ -29,7 +29,7 @@ SWEP.Base="weapon_base"
 SWEP.ViewModel = "models/Items/Flare.mdl"
 SWEP.WorldModel = "models/Items/Flare.mdl"
 if(CLIENT)then SWEP.WepSelectIcon=surface.GetTextureID("vgui/wep_jack_hmcd_poisongoo");SWEP.BounceWeaponIcon=false end
-SWEP.PrintName = "Curare Vial"
+SWEP.PrintName = "小瓶箭毒"
 SWEP.Instructions	= "这是一小瓶自制的高浓度生物碱提取物，来自各种含咖哩的植物来源。它是一种强效的血液毒剂，可以应用于任何切割或穿透工具。\n\n左键打开获取目录"
 SWEP.Author			= ""
 SWEP.Contact		= ""

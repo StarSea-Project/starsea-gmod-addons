@@ -55,7 +55,7 @@ SWEP.Base="weapon_base"
 SWEP.ViewModel = "models/props_junk/cardboard_jox004a.mdl"
 SWEP.WorldModel = "models/props_junk/cardboard_jox004a.mdl"
 if(CLIENT)then SWEP.WepSelectIcon=surface.GetTextureID("vgui/wep_jack_hmcd_ied");SWEP.BounceWeaponIcon=false end
-SWEP.PrintName = "爆炸装置"
+SWEP.PrintName = "简易爆炸装置"
 SWEP.Instructions	= "这是一个小小的炸药包，一个爆破帽，一个电池供电的引爆器和射频遥控器。用它来制造一个杀人的简易爆炸装置陷阱。\n\n按左键可将炸药谨慎地藏在物体内/上。\n右键在地上放置一个明显的炸药包\n装好后，按左键键引爆。\n爆炸物会碎裂或炸毁门，取决于选择的道具。"
 SWEP.Author			= ""
 SWEP.Contact		= ""

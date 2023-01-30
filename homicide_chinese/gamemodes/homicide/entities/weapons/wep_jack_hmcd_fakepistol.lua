@@ -7,7 +7,7 @@ else
 end
 SWEP.Base = "weapon_base"
 SWEP.PrintName		= "假的手枪"
-SWEP.Instructions	= "这是一把空的、喷有黑色油漆的气枪。用它来欺骗无辜的人，引诱他们走向灭亡，可以假装是枪手，也可以按LMB键放下作为诱饵。"
+SWEP.Instructions	= "这是一把空的、喷有黑色油漆的气枪。用它来欺骗无辜的人，引诱他们走向灭亡，可以假装是枪手，也可以按左键放下作为诱饵。"
 SWEP.Slot			= 5
 SWEP.SlotPos		= 3
 SWEP.DrawAmmo		= false
