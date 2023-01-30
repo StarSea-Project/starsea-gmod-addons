@@ -30,7 +30,7 @@ SWEP.ViewModel = "models/weapons/w_models/w_jyringe_jroj.mdl"
 SWEP.WorldModel = "models/weapons/w_models/w_jyringe_jroj.mdl"
 if(CLIENT)then SWEP.WepSelectIcon=surface.GetTextureID("vgui/wep_jack_hmcd_adrenaline");SWEP.BounceWeaponIcon=false end
 SWEP.PrintName = "肾上腺素针剂"
-SWEP.Instructions	= "这是一个自带的肾上腺素注射器，用于阻止过敏反应。谋杀时，用它来给自己极速提升体力。\n\n鼠标左键，注射针剂"
+SWEP.Instructions	= "这是一个自带的肾上腺素注射器，用于阻止过敏反应。作为杀手时，用它来给自己极速提升体力。\n\n鼠标左键，注射针剂"
 SWEP.Author			= ""
 SWEP.Contact		= ""
 SWEP.Purpose		= ""
