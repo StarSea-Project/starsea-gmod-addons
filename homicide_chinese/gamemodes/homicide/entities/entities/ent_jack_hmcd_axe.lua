@@ -1,7 +1,7 @@
 AddCSLuaFile()
 ENT.Type = "anim"
 ENT.Base = "ent_jack_hmcd_loot_base"
-ENT.PrintName		= "斧子"
+ENT.PrintName		= "斧头"
 ENT.SWEP="wep_jack_hmcd_axe"
 ENT.ImpactSound="physics/wood/wood_plank_impact_soft1.wav"
 ENT.MurdererLoot=true
